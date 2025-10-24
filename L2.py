@@ -32,5 +32,5 @@ with col2:
 # --- Button Example ---
 if st.button("Submit"):
     st.balloons()
-    st.write(f"Thanks, {name or 'friend'}! you selected {color} and you are {age} years old. ")
+    st.write(f"Thanks, {name or 'friend'}! you selected {color} color and you are {age} years old. ")
     
