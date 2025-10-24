@@ -2,6 +2,13 @@ import streamlit as st
 
 
 # Page title
+# --- PAGE CONFIG ---
+st.set_page_config(
+    page_title="My Streamlit App",
+    page_icon="📱",
+    layout="wide",
+    initial_sidebar_state="expanded"  # <--- this line auto-opens sidebar
+)
 st.title("Lesson 02: Layouts and Widgets 🧩")
 
 # --- Sidebar ---
