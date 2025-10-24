@@ -9,6 +9,20 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"  # <--- this line auto-opens sidebar
 )
+
+st.markdown("""
+    <style>
+    [data-testid="stSidebar"] {
+        visibility: visible;
+        width: 260px;
+        margin-left: 0;
+    }
+    [data-testid="stSidebarCollapsedControl"] {
+        display: none;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 st.title("Lesson 02: Layouts and Widgets 🧩")
 
 # --- Sidebar ---
